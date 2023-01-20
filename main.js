@@ -1,5 +1,5 @@
 import './style.css'
-import { gsap } from '/gsap';
+import { gsap } from 'gsap';
 
 gsap.to('#path332', {duration: 1, fill:'green', yoyo: true, repeat: -1 });
 gsap.to('#path334', {duration: 1, fill:'green', yoyo: true, repeat: -1, delay: 0.25 });
